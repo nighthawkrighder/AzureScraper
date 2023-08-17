@@ -21,6 +21,12 @@ Apache_Cassandra_Standard_E4as_v5,0.2825,1 Hour,westus3,Standard_E4as_v5 vCore,A
 Apache_Cassandra_Standard_E4s_v5,0.315,1 Hour,westus3,Standard_E4s_v5 vCore,Azure Managed Instance for Apache Cassandra - Compute
 Apache_Cassandra_Standard_E8as_v5,0.565,1 Hour,westus3,Standard_E8as_v5 vCore,Azure Managed Instance for Apache Cassandra - Compute
 Apache_Cassandra_Standard_E8s_v5,0.63,1 Hour,westus3,Standard_E8s_v5 vCore,Azure Managed Instance for Apache Cassandra - Compute
+Apache_Cassandra_Standard_L16as_v3,1.56,1 Hour,westus3,Standard_L16as_v3 vCore,Azure Managed Instance for Apache Cassandra - Compute
+Apache_Cassandra_Standard_L16s_v3,1.74,1 Hour,westus3,Standard_L16s_v3 vCore,Azure Managed Instance for Apache Cassandra - Compute
+Apache_Cassandra_Standard_L32as_v3,3.12,1 Hour,westus3,Standard_L32as_v3 vCore,Azure Managed Instance for Apache Cassandra - Compute
+Apache_Cassandra_Standard_L32s_v3,3.48,1 Hour,westus3,Standard_L32s_v3 vCore,Azure Managed Instance for Apache Cassandra - Compute
+Apache_Cassandra_Standard_L8as_v3,0.78,1 Hour,westus3,Standard_L8as_v3 vCore,Azure Managed Instance for Apache Cassandra - Compute
+Apache_Cassandra_Standard_L8s_v3,0.87,1 Hour,westus3,Standard_L8s_v3 vCore,Azure Managed Instance for Apache Cassandra - Compute
 Azure_Redis_Cache_Standard_C0_Cache,0.0275,1 Hour,westus3,C0 Cache Instance,Azure Redis Cache Standard
 Azure_Redis_Cache_Standard_C0_Cache,0.055,1 Hour,westus3,C0 Cache,Azure Redis Cache Standard
 Azure_Redis_Cache_Standard_C1_Cache,0.138,1 Hour,westus3,C1 Cache,Azure Redis Cache Standard
@@ -3350,6 +3356,449 @@ Standard_HX176rs,6.6944,1 Hour,westus3,HX176rs Spot,Virtual Machines HXrs Window
 Standard_HX176rs,8.64,1 Hour,westus3,HX176rs,Virtual Machines HXrs Series
 Standard_HX176rs,1.728,1 Hour,westus3,HX176rs Low Priority,Virtual Machines HXrs Series
 Standard_HX176rs,6.694,1 Hour,westus3,HX176rs Low Priority,Virtual Machines HXrs Windows
+Standard_L16as_v3,0.1248,1 Hour,westus3,L16as v3 Spot,Lasv3 Series Linux
+Standard_L16as_v3,0.794,1 Hour,westus3,L16as v3 Low Priority,Lasv3 Series Windows
+Standard_L16as_v3,0.25,1 Hour,westus3,L16as v3 Low Priority,Lasv3 Series Linux
+Standard_L16as_v3,1.984,1 Hour,westus3,L16as v3,Lasv3 Series Windows
+Standard_L16as_v3,1.248,1 Hour,westus3,L16as v3,Lasv3 Series Linux
+Standard_L16as_v3,0.1984,1 Hour,westus3,L16as v3 Spot,Lasv3 Series Windows
+Standard_L16s_v2,1.248,1 Hour,westus3,L16s v2,Virtual Machines LSv2 Series
+Standard_L16s_v2,1.984,1 Hour,westus3,L16s v2,Cloud Services LSv2 Series
+Standard_L16s_v2,1.984,1 Hour,westus3,L16s v2,Virtual Machines LSv2 Series Windows
+Standard_L16s_v2,0.794,1 Hour,westus3,L16s v2 Low Priority,Virtual Machines LSv2 Series Windows
+Standard_L16s_v2,0.25,1 Hour,westus3,L16s v2 Low Priority,Virtual Machines LSv2 Series
+Standard_L16s_v2,0.794,1 Hour,westus3,L16s v2 Low Priority,Cloud Services LSv2 Series
+Standard_L16s_v2,0.1248,1 Hour,westus3,L16s v2 Spot,Virtual Machines LSv2 Series
+Standard_L16s_v2,0.202566,1 Hour,westus3,L16s v2 Spot,Virtual Machines LSv2 Series Windows
+Standard_L16s_v3,1.396,1 Hour,westus3,L16s v3,Virtual Machines Lsv3 Series
+Standard_L16s_v3,2.132,1 Hour,westus3,L16s v3,Virtual Machines Lsv3 Series Windows
+Standard_L16s_v3,0.1396,1 Hour,westus3,L16s v3 Spot,Virtual Machines Lsv3 Series
+Standard_L16s_v3,0.279,1 Hour,westus3,L16s v3 Low Priority,Virtual Machines Lsv3 Series
+Standard_L16s_v3,0.853,1 Hour,westus3,L16s v3 Low Priority,Virtual Machines Lsv3 Series Windows
+Standard_L16s_v3,0.271404,1 Hour,westus3,L16s v3 Spot,Virtual Machines Lsv3 Series Windows
+Standard_L32as_v3,2.496,1 Hour,westus3,L32as v3,Lasv3 Series Linux
+Standard_L32as_v3,0.3968,1 Hour,westus3,L32as v3 Spot,Lasv3 Series Windows
+Standard_L32as_v3,3.968,1 Hour,westus3,L32as v3,Lasv3 Series Windows
+Standard_L32as_v3,1.587,1 Hour,westus3,L32as v3 Low Priority,Lasv3 Series Windows
+Standard_L32as_v3,0.499,1 Hour,westus3,L32as v3 Low Priority,Lasv3 Series Linux
+Standard_L32as_v3,0.2496,1 Hour,westus3,L32as v3 Spot,Lasv3 Series Linux
+Standard_L32s_v2,0.2496,1 Hour,westus3,L32s v2 Spot,Virtual Machines LSv2 Series
+Standard_L32s_v2,0.405133,1 Hour,westus3,L32s v2 Spot,Virtual Machines LSv2 Series Windows
+Standard_L32s_v2,2.496,1 Hour,westus3,L32s v2,Virtual Machines LSv2 Series
+Standard_L32s_v2,0.499,1 Hour,westus3,L32s v2 Low Priority,Virtual Machines LSv2 Series
+Standard_L32s_v2,1.587,1 Hour,westus3,L32s v2 Low Priority,Virtual Machines LSv2 Series Windows
+Standard_L32s_v2,3.968,1 Hour,westus3,L32s v2,Cloud Services LSv2 Series
+Standard_L32s_v2,3.968,1 Hour,westus3,L32s v2,Virtual Machines LSv2 Series Windows
+Standard_L32s_v2,1.587,1 Hour,westus3,L32s v2 Low Priority,Cloud Services LSv2 Series
+Standard_L32s_v3,0.558,1 Hour,westus3,L32s v3 Low Priority,Virtual Machines Lsv3 Series
+Standard_L32s_v3,1.706,1 Hour,westus3,L32s v3 Low Priority,Virtual Machines Lsv3 Series Windows
+Standard_L32s_v3,2.792,1 Hour,westus3,L32s v3,Virtual Machines Lsv3 Series
+Standard_L32s_v3,4.264,1 Hour,westus3,L32s v3,Virtual Machines Lsv3 Series Windows
+Standard_L32s_v3,0.2792,1 Hour,westus3,L32s v3 Spot,Virtual Machines Lsv3 Series
+Standard_L32s_v3,0.542807,1 Hour,westus3,L32s v3 Spot,Virtual Machines Lsv3 Series Windows
+Standard_L48as_v3,5.952,1 Hour,westus3,L48as v3,Lasv3 Series Windows
+Standard_L48as_v3,0.749,1 Hour,westus3,L48as v3 Low Priority,Lasv3 Series Linux
+Standard_L48as_v3,0.3744,1 Hour,westus3,L48as v3 Spot,Lasv3 Series Linux
+Standard_L48as_v3,3.744,1 Hour,westus3,L48as v3,Lasv3 Series Linux
+Standard_L48as_v3,0.5952,1 Hour,westus3,L48as v3 Spot,Lasv3 Series Windows
+Standard_L48as_v3,2.381,1 Hour,westus3,L48as v3 Low Priority,Lasv3 Series Windows
+Standard_L48s_v2,3.744,1 Hour,westus3,L48s v2,Virtual Machines LSv2 Series
+Standard_L48s_v2,5.952,1 Hour,westus3,L48s v2,Cloud Services LSv2 Series
+Standard_L48s_v2,5.952,1 Hour,westus3,L48s v2,Virtual Machines LSv2 Series Windows
+Standard_L48s_v2,2.381,1 Hour,westus3,L48s v2 Low Priority,Cloud Services LSv2 Series
+Standard_L48s_v2,0.3744,1 Hour,westus3,L48s v2 Spot,Virtual Machines LSv2 Series
+Standard_L48s_v2,0.749,1 Hour,westus3,L48s v2 Low Priority,Virtual Machines LSv2 Series
+Standard_L48s_v2,2.381,1 Hour,westus3,L48s v2 Low Priority,Virtual Machines LSv2 Series Windows
+Standard_L48s_v2,0.607699,1 Hour,westus3,L48s v2 Spot,Virtual Machines LSv2 Series Windows
+Standard_L48s_v3,6.396,1 Hour,westus3,L48s v3,Virtual Machines Lsv3 Series Windows
+Standard_L48s_v3,4.188,1 Hour,westus3,L48s v3,Virtual Machines Lsv3 Series
+Standard_L48s_v3,0.838,1 Hour,westus3,L48s v3 Low Priority,Virtual Machines Lsv3 Series
+Standard_L48s_v3,0.4188,1 Hour,westus3,L48s v3 Spot,Virtual Machines Lsv3 Series
+Standard_L48s_v3,2.558,1 Hour,westus3,L48s v3 Low Priority,Virtual Machines Lsv3 Series Windows
+Standard_L48s_v3,0.814211,1 Hour,westus3,L48s v3 Spot,Virtual Machines Lsv3 Series Windows
+Standard_L64as_v3,0.998,1 Hour,westus3,L64as v3 Low Priority,Lasv3 Series Linux
+Standard_L64as_v3,3.174,1 Hour,westus3,L64as v3 Low Priority,Lasv3 Series Windows
+Standard_L64as_v3,4.992,1 Hour,westus3,L64as v3,Lasv3 Series Linux
+Standard_L64as_v3,0.4992,1 Hour,westus3,L64as v3 Spot,Lasv3 Series Linux
+Standard_L64as_v3,0.7936,1 Hour,westus3,L64as v3 Spot,Lasv3 Series Windows
+Standard_L64as_v3,7.936,1 Hour,westus3,L64as v3,Lasv3 Series Windows
+Standard_L64s_v2,0.810266,1 Hour,westus3,L64s v2 Spot,Virtual Machines LSv2 Series Windows
+Standard_L64s_v2,3.174,1 Hour,westus3,L64s v2 Low Priority,Cloud Services LSv2 Series
+Standard_L64s_v2,0.4992,1 Hour,westus3,L64s v2 Spot,Virtual Machines LSv2 Series
+Standard_L64s_v2,7.936,1 Hour,westus3,L64s v2,Virtual Machines LSv2 Series Windows
+Standard_L64s_v2,7.936,1 Hour,westus3,L64s v2,Cloud Services LSv2 Series
+Standard_L64s_v2,3.174,1 Hour,westus3,L64s v2 Low Priority,Virtual Machines LSv2 Series Windows
+Standard_L64s_v2,0.998,1 Hour,westus3,L64s v2 Low Priority,Virtual Machines LSv2 Series
+Standard_L64s_v2,4.992,1 Hour,westus3,L64s v2,Virtual Machines LSv2 Series
+Standard_L64s_v3,3.411,1 Hour,westus3,L64s v3 Low Priority,Virtual Machines Lsv3 Series Windows
+Standard_L64s_v3,8.528,1 Hour,westus3,L64s v3,Virtual Machines Lsv3 Series Windows
+Standard_L64s_v3,1.117,1 Hour,westus3,L64s v3 Low Priority,Virtual Machines Lsv3 Series
+Standard_L64s_v3,0.5584,1 Hour,westus3,L64s v3 Spot,Virtual Machines Lsv3 Series
+Standard_L64s_v3,5.584,1 Hour,westus3,L64s v3,Virtual Machines Lsv3 Series
+Standard_L64s_v3,1.085614,1 Hour,westus3,L64s v3 Spot,Virtual Machines Lsv3 Series Windows
+Standard_L80as_v3,1.248,1 Hour,westus3,L80as v3 Low Priority,Lasv3 Series Linux
+Standard_L80as_v3,9.92,1 Hour,westus3,L80as v3,Lasv3 Series Windows
+Standard_L80as_v3,0.992,1 Hour,westus3,L80as v3 Spot,Lasv3 Series Windows
+Standard_L80as_v3,6.24,1 Hour,westus3,L80as v3,Lasv3 Series Linux
+Standard_L80as_v3,0.624,1 Hour,westus3,L80as v3 Spot,Lasv3 Series Linux
+Standard_L80as_v3,3.968,1 Hour,westus3,L80as v3 Low Priority,Lasv3 Series Windows
+Standard_L80s_v2,9.92,1 Hour,westus3,L80s v2,Virtual Machines LSv2 Series Windows
+Standard_L80s_v2,0.624,1 Hour,westus3,L80s v2 Spot,Virtual Machines LSv2 Series
+Standard_L80s_v2,1.012832,1 Hour,westus3,L80s v2 Spot,Virtual Machines LSv2 Series Windows
+Standard_L80s_v2,1.248,1 Hour,westus3,L80s v2 Low Priority,Virtual Machines LSv2 Series
+Standard_L80s_v2,9.92,1 Hour,westus3,L80s v2,Cloud Services LSv2 Series
+Standard_L80s_v2,6.24,1 Hour,westus3,L80s v2,Virtual Machines LSv2 Series
+Standard_L80s_v2,3.968,1 Hour,westus3,L80s v2 Low Priority,Cloud Services LSv2 Series
+Standard_L80s_v2,3.968,1 Hour,westus3,L80s v2 Low Priority,Virtual Machines LSv2 Series Windows
+Standard_L80s_v3,4.264,1 Hour,westus3,L80s v3 Low Priority,Virtual Machines Lsv3 Series Windows
+Standard_L80s_v3,6.98,1 Hour,westus3,L80s v3,Virtual Machines Lsv3 Series
+Standard_L80s_v3,10.66,1 Hour,westus3,L80s v3,Virtual Machines Lsv3 Series Windows
+Standard_L80s_v3,0.698,1 Hour,westus3,L80s v3 Spot,Virtual Machines Lsv3 Series
+Standard_L80s_v3,1.357018,1 Hour,westus3,L80s v3 Spot,Virtual Machines Lsv3 Series Windows
+Standard_L80s_v3,1.396,1 Hour,westus3,L80s v3 Low Priority,Virtual Machines Lsv3 Series
+Standard_L88is_v2,1.373,1 Hour,westus3,L88is v2 Low Priority,Virtual Machines LSv2 Series
+Standard_L88is_v2,1.114115,1 Hour,westus3,L88is v2 Spot,Virtual Machines LSv2 Series Windows
+Standard_L88is_v2,4.365,1 Hour,westus3,L88is v2 Low Priority,Virtual Machines LSv2 Series Windows
+Standard_L88is_v2,6.864,1 Hour,westus3,L88is v2,Virtual Machines LSv2 Series
+Standard_L88is_v2,10.912,1 Hour,westus3,L88is v2,Virtual Machines LSv2 Series Windows
+Standard_L88is_v2,0.6864,1 Hour,westus3,L88is v2 Spot,Virtual Machines LSv2 Series
+Standard_L8as_v3,0.125,1 Hour,westus3,L8as v3 Low Priority,Lasv3 Series Linux
+Standard_L8as_v3,0.397,1 Hour,westus3,L8as v3 Low Priority,Lasv3 Series Windows
+Standard_L8as_v3,0.0992,1 Hour,westus3,L8as v3 Spot,Lasv3 Series Windows
+Standard_L8as_v3,0.0624,1 Hour,westus3,L8as v3 Spot,Lasv3 Series Linux
+Standard_L8as_v3,0.992,1 Hour,westus3,L8as v3,Lasv3 Series Windows
+Standard_L8as_v3,0.624,1 Hour,westus3,L8as v3,Lasv3 Series Linux
+Standard_L8s_v2,0.397,1 Hour,westus3,L8s v2 Low Priority,Cloud Services LSv2 Series
+Standard_L8s_v2,0.397,1 Hour,westus3,L8s v2 Low Priority,Virtual Machines LSv2 Series Windows
+Standard_L8s_v2,0.624,1 Hour,westus3,L8s v2,Virtual Machines LSv2 Series
+Standard_L8s_v2,0.992,1 Hour,westus3,L8s v2,Cloud Services LSv2 Series
+Standard_L8s_v2,0.992,1 Hour,westus3,L8s v2,Virtual Machines LSv2 Series Windows
+Standard_L8s_v2,0.125,1 Hour,westus3,L8s v2 Low Priority,Virtual Machines LSv2 Series
+Standard_L8s_v2,0.0624,1 Hour,westus3,L8s v2 Spot,Virtual Machines LSv2 Series
+Standard_L8s_v2,0.101283,1 Hour,westus3,L8s v2 Spot,Virtual Machines LSv2 Series Windows
+Standard_L8s_v3,1.066,1 Hour,westus3,L8s v3,Virtual Machines Lsv3 Series Windows
+Standard_L8s_v3,0.135702,1 Hour,westus3,L8s v3 Spot,Virtual Machines Lsv3 Series Windows
+Standard_L8s_v3,0.0698,1 Hour,westus3,L8s v3 Spot,Virtual Machines Lsv3 Series
+Standard_L8s_v3,0.14,1 Hour,westus3,L8s v3 Low Priority,Virtual Machines Lsv3 Series
+Standard_L8s_v3,0.426,1 Hour,westus3,L8s v3 Low Priority,Virtual Machines Lsv3 Series Windows
+Standard_L8s_v3,0.698,1 Hour,westus3,L8s v3,Virtual Machines Lsv3 Series
+Standard_M128,1.3338,1 Hour,westus3,M128 Spot,Virtual Machines MS Series
+Standard_M128,2.668,1 Hour,westus3,M128 Low Priority,Virtual Machines MS Series
+Standard_M128,13.338,1 Hour,westus3,M128,Virtual Machines MS Series
+Standard_M128-32ms,3.5814,1 Hour,westus3,M128-32ms Spot,Virtual Machines MS Series Windows
+Standard_M128-32ms,14.326,1 Hour,westus3,M128-32ms Low Priority,Virtual Machines MS Series Windows
+Standard_M128-32ms,26.688,1 Hour,westus3,M128-32ms,Virtual Machines MS Series
+Standard_M128-32ms,5.338,1 Hour,westus3,M128-32ms Low Priority,Virtual Machines MS Series
+Standard_M128-32ms,2.6688,1 Hour,westus3,M128-32ms Spot,Virtual Machines MS Series
+Standard_M128-32ms,35.814,1 Hour,westus3,M128-32ms,Virtual Machines MS Series Windows
+Standard_M128-64ms,2.6688,1 Hour,westus3,M128-64ms Spot,Virtual Machines MS Series
+Standard_M128-64ms,3.5814,1 Hour,westus3,M128-64ms Spot,Virtual Machines MS Series Windows
+Standard_M128-64ms,14.326,1 Hour,westus3,M128-64ms Low Priority,Virtual Machines MS Series Windows
+Standard_M128-64ms,26.688,1 Hour,westus3,M128-64ms,Virtual Machines MS Series
+Standard_M128-64ms,5.338,1 Hour,westus3,M128-64ms Low Priority,Virtual Machines MS Series
+Standard_M128-64ms,35.814,1 Hour,westus3,M128-64ms,Virtual Machines MS Series Windows
+Standard_M128dms_v2,13.031,1 Hour,westus3,M128dms_v2 Low Priority,Virtual Machines MdSv2 Series Windows
+Standard_M128dms_v2,5.338,1 Hour,westus3,M128dms_v2 Low Priority,Virtual Machines MdSv2 Series
+Standard_M128dms_v2,26.69,1 Hour,westus3,M128dms_v2,Virtual Machines MdSv2 Series
+Standard_M128dms_v2,3.2578,1 Hour,westus3,M128dms_v2 Spot,Virtual Machines MdSv2 Series Windows
+Standard_M128dms_v2,52.956,1 Hour,westus3,vCore,Azure Database for PostgreSQL Flexible Server Mdsv2 Series Compute
+Standard_M128dms_v2,2.669,1 Hour,westus3,M128dms_v2 Spot,Virtual Machines MdSv2 Series
+Standard_M128dms_v2,32.578,1 Hour,westus3,M128dms_v2,Virtual Machines MdSv2 Series Windows
+Standard_M128ds_v2,7.691,1 Hour,westus3,M128ds_v2 Low Priority,Virtual Machines MdSv2 Series Windows
+Standard_M128ds_v2,1.9228,1 Hour,westus3,M128ds_v2 Spot,Virtual Machines MdSv2 Series Windows
+Standard_M128ds_v2,2.668,1 Hour,westus3,M128ds_v2 Low Priority,Virtual Machines MdSv2 Series
+Standard_M128ds_v2,13.34,1 Hour,westus3,M128ds_v2,Virtual Machines MdSv2 Series
+Standard_M128ds_v2,19.228,1 Hour,westus3,M128ds_v2,Virtual Machines MdSv2 Series Windows
+Standard_M128ds_v2,1.334,1 Hour,westus3,M128ds_v2 Spot,Virtual Machines MdSv2 Series
+Standard_M128ds_v2,26.468,1 Hour,westus3,vCore,Azure Database for PostgreSQL Flexible Server Mdsv2 Series Compute
+Standard_M128m,26.688,1 Hour,westus3,M128m,Virtual Machines MS Series
+Standard_M128m,5.338,1 Hour,westus3,M128m Low Priority,Virtual Machines MS Series
+Standard_M128m,2.6688,1 Hour,westus3,M128m Spot,Virtual Machines MS Series
+Standard_M128ms,2.6688,1 Hour,westus3,M128ms Spot,Virtual Machines MS Series
+Standard_M128ms,14.326,1 Hour,westus3,M128ms Low Priority,Virtual Machines MS Series Windows
+Standard_M128ms,26.688,1 Hour,westus3,M128ms,Virtual Machines MS Series
+Standard_M128ms,3.5814,1 Hour,westus3,M128ms Spot,Virtual Machines MS Series Windows
+Standard_M128ms,5.338,1 Hour,westus3,M128ms Low Priority,Virtual Machines MS Series
+Standard_M128ms,35.814,1 Hour,westus3,M128ms,Virtual Machines MS Series Windows
+Standard_M128ms_v2,32.157,1 Hour,westus3,M128ms_v2,Virtual Machines MSv2 Series Windows
+Standard_M128ms_v2,5.254,1 Hour,westus3,M128ms_v2 Low Priority,Virtual Machines MSv2 Series
+Standard_M128ms_v2,2.6269,1 Hour,westus3,M128ms_v2 Spot,Virtual Machines MSv2 Series
+Standard_M128ms_v2,26.269,1 Hour,westus3,M128ms_v2,Virtual Machines MSv2 Series
+Standard_M128ms_v2,12.863,1 Hour,westus3,M128ms_v2 Low Priority,Virtual Machines MSv2 Series Windows
+Standard_M128ms_v2,3.2157,1 Hour,westus3,M128ms_v2 Spot,Virtual Machines MSv2 Series Windows
+Standard_M128s,2.668,1 Hour,westus3,M128s Low Priority,Virtual Machines MS Series
+Standard_M128s,1.3338,1 Hour,westus3,M128s Spot,Virtual Machines MS Series
+Standard_M128s,7.69,1 Hour,westus3,M128s Low Priority,Virtual Machines MS Series Windows
+Standard_M128s,13.338,1 Hour,westus3,M128s,Virtual Machines MS Series
+Standard_M128s,19.226,1 Hour,westus3,M128s,Virtual Machines MS Series Windows
+Standard_M128s,1.9226,1 Hour,westus3,M128s Spot,Virtual Machines MS Series Windows
+Standard_M128s_v2,1.2919,1 Hour,westus3,M128s_v2 Spot,Virtual Machines MSv2 Series
+Standard_M128s_v2,12.919,1 Hour,westus3,M128s_v2,Virtual Machines MSv2 Series
+Standard_M128s_v2,7.523,1 Hour,westus3,M128s_v2 Low Priority,Virtual Machines MSv2 Series Windows
+Standard_M128s_v2,1.8807,1 Hour,westus3,M128s_v2 Spot,Virtual Machines MSv2 Series Windows
+Standard_M128s_v2,18.807,1 Hour,westus3,M128s_v2,Virtual Machines MSv2 Series Windows
+Standard_M128s_v2,2.584,1 Hour,westus3,M128s_v2 Low Priority,Virtual Machines MSv2 Series
+Standard_M16-4ms,0.615,1 Hour,westus3,M16-4ms Low Priority,Virtual Machines MS Series
+Standard_M16-4ms,4.214,1 Hour,westus3,M16-4ms,Virtual Machines MS Series Windows
+Standard_M16-4ms,3.073,1 Hour,westus3,M16-4ms,Virtual Machines MS Series
+Standard_M16-4ms,0.4214,1 Hour,westus3,M16-4ms Spot,Virtual Machines MS Series Windows
+Standard_M16-4ms,1.686,1 Hour,westus3,M16-4ms Low Priority,Virtual Machines MS Series Windows
+Standard_M16-4ms,0.3073,1 Hour,westus3,M16-4ms Spot,Virtual Machines MS Series
+Standard_M16-8ms,0.615,1 Hour,westus3,M16-8ms Low Priority,Virtual Machines MS Series
+Standard_M16-8ms,4.214,1 Hour,westus3,M16-8ms,Virtual Machines MS Series Windows
+Standard_M16-8ms,3.073,1 Hour,westus3,M16-8ms,Virtual Machines MS Series
+Standard_M16-8ms,0.3073,1 Hour,westus3,M16-8ms Spot,Virtual Machines MS Series
+Standard_M16-8ms,0.4214,1 Hour,westus3,M16-8ms Spot,Virtual Machines MS Series Windows
+Standard_M16-8ms,1.686,1 Hour,westus3,M16-8ms Low Priority,Virtual Machines MS Series Windows
+Standard_M16ms,0.615,1 Hour,westus3,M16ms Low Priority,Virtual Machines MS Series
+Standard_M16ms,4.214,1 Hour,westus3,M16ms,Virtual Machines MS Series Windows
+Standard_M16ms,3.073,1 Hour,westus3,M16ms,Virtual Machines MS Series
+Standard_M16ms,1.686,1 Hour,westus3,M16ms Low Priority,Virtual Machines MS Series Windows
+Standard_M16ms,0.3073,1 Hour,westus3,M16ms Spot,Virtual Machines MS Series
+Standard_M16ms,0.4214,1 Hour,westus3,M16ms Spot,Virtual Machines MS Series Windows
+Standard_M16s,1.249,1 Hour,westus3,M16s Low Priority,Virtual Machines MS Series Windows
+Standard_M16s,0.3123,1 Hour,westus3,M16s Spot,Virtual Machines MS Series Windows
+Standard_M16s,3.123,1 Hour,westus3,M16s,Virtual Machines MS Series Windows
+Standard_M16s,2.387,1 Hour,westus3,M16s,Virtual Machines MS Series
+Standard_M16s,0.477,1 Hour,westus3,M16s Low Priority,Virtual Machines MS Series
+Standard_M16s,0.2387,1 Hour,westus3,M16s Spot,Virtual Machines MS Series
+Standard_M192idms_v2,3.2064,1 Hour,westus3,M192idms_v2 Spot,Virtual Machines MdSv2 Series
+Standard_M192idms_v2,6.413,1 Hour,westus3,M192idms_v2 Low Priority,Virtual Machines MdSv2 Series
+Standard_M192idms_v2,32.064,1 Hour,westus3,M192idms_v2,Virtual Machines MdSv2 Series
+Standard_M192idms_v2,40.896,1 Hour,westus3,M192idms_v2,Virtual Machines MdSv2 Series Windows
+Standard_M192idms_v2,4.0896,1 Hour,westus3,M192idms_v2 Spot,Virtual Machines MdSv2 Series Windows
+Standard_M192idms_v2,16.358,1 Hour,westus3,M192idms_v2 Low Priority,Virtual Machines MdSv2 Series Windows
+Standard_M192idms_v2,63.619,1 Hour,westus3,vCore,Azure Database for PostgreSQL Flexible Server Mdsv2 Series Compute
+Standard_M192ids_v2,3.206,1 Hour,westus3,M192ids_v2 Low Priority,Virtual Machines MdSv2 Series
+Standard_M192ids_v2,9.946,1 Hour,westus3,M192ids_v2 Low Priority,Virtual Machines MdSv2 Series Windows
+Standard_M192ids_v2,2.4864,1 Hour,westus3,M192ids_v2 Spot,Virtual Machines MdSv2 Series Windows
+Standard_M192ids_v2,16.032,1 Hour,westus3,M192ids_v2,Virtual Machines MdSv2 Series
+Standard_M192ids_v2,1.6032,1 Hour,westus3,M192ids_v2 Spot,Virtual Machines MdSv2 Series
+Standard_M192ids_v2,24.864,1 Hour,westus3,M192ids_v2,Virtual Machines MdSv2 Series Windows
+Standard_M192ids_v2,31.81,1 Hour,westus3,vCore,Azure Database for PostgreSQL Flexible Server Mdsv2 Series Compute
+Standard_M192ims_v2,6.329,1 Hour,westus3,M192ims_v2 Low Priority,Virtual Machines MSv2 Series
+Standard_M192ims_v2,3.1643,1 Hour,westus3,M192ims_v2 Spot,Virtual Machines MSv2 Series
+Standard_M192ims_v2,40.476,1 Hour,westus3,M192ims_v2,Virtual Machines MSv2 Series Windows
+Standard_M192ims_v2,31.643,1 Hour,westus3,M192ims_v2,Virtual Machines MSv2 Series
+Standard_M192ims_v2,4.0476,1 Hour,westus3,M192ims_v2 Spot,Virtual Machines MSv2 Series Windows
+Standard_M192ims_v2,16.19,1 Hour,westus3,M192ims_v2 Low Priority,Virtual Machines MSv2 Series Windows
+Standard_M192is_v2,1.5611,1 Hour,westus3,M192is_v2 Spot,Virtual Machines MSv2 Series
+Standard_M192is_v2,2.4444,1 Hour,westus3,M192is_v2 Spot,Virtual Machines MSv2 Series Windows
+Standard_M192is_v2,9.777,1 Hour,westus3,M192is_v2 Low Priority,Virtual Machines MSv2 Series Windows
+Standard_M192is_v2,24.444,1 Hour,westus3,M192is_v2,Virtual Machines MSv2 Series Windows
+Standard_M192is_v2,3.122,1 Hour,westus3,M192is_v2 Low Priority,Virtual Machines MSv2 Series
+Standard_M192is_v2,15.611,1 Hour,westus3,M192is_v2,Virtual Machines MSv2 Series
+Standard_M208-104ms_v2,54.188,1 Hour,westus3,M208-104ms_v2,Virtual Machines MSv2 Series Windows
+Standard_M208-104ms_v2,5.4188,1 Hour,westus3,M208-104ms_v2 Spot,Virtual Machines MSv2 Series Windows
+Standard_M208-104ms_v2,21.675,1 Hour,westus3,M208-104ms_v2 Low Priority,Virtual Machines MSv2 Series Windows
+Standard_M208-104ms_v2,44.62,1 Hour,westus3,M208-104ms_v2,Virtual Machines MSv2 Series
+Standard_M208-104ms_v2,4.462,1 Hour,westus3,M208-104ms_v2 Spot,Virtual Machines MSv2 Series
+Standard_M208-104ms_v2,8.924,1 Hour,westus3,M208-104ms_v2 Low Priority,Virtual Machines MSv2 Series
+Standard_M208-104s_v2,2.231,1 Hour,westus3,M208-104s_v2 Spot,Virtual Machines MSv2 Series
+Standard_M208-104s_v2,22.31,1 Hour,westus3,M208-104s_v2,Virtual Machines MSv2 Series
+Standard_M208-104s_v2,31.878,1 Hour,westus3,M208-104s_v2,Virtual Machines MSv2 Series Windows
+Standard_M208-104s_v2,12.751,1 Hour,westus3,M208-104s_v2 Low Priority,Virtual Machines MSv2 Series Windows
+Standard_M208-104s_v2,4.462,1 Hour,westus3,M208-104s_v2 Low Priority,Virtual Machines MSv2 Series
+Standard_M208-104s_v2,3.1878,1 Hour,westus3,M208-104s_v2 Spot,Virtual Machines MSv2 Series Windows
+Standard_M208-52ms_v2,54.188,1 Hour,westus3,M208-52ms_v2,Virtual Machines MSv2 Series Windows
+Standard_M208-52ms_v2,4.462,1 Hour,westus3,M208-52ms_v2 Spot,Virtual Machines MSv2 Series
+Standard_M208-52ms_v2,44.62,1 Hour,westus3,M208-52ms_v2,Virtual Machines MSv2 Series
+Standard_M208-52ms_v2,5.4188,1 Hour,westus3,M208-52ms_v2 Spot,Virtual Machines MSv2 Series Windows
+Standard_M208-52ms_v2,8.924,1 Hour,westus3,M208-52ms_v2 Low Priority,Virtual Machines MSv2 Series
+Standard_M208-52ms_v2,21.675,1 Hour,westus3,M208-52ms_v2 Low Priority,Virtual Machines MSv2 Series Windows
+Standard_M208-52s_v2,12.751,1 Hour,westus3,M208-52s_v2 Low Priority,Virtual Machines MSv2 Series Windows
+Standard_M208-52s_v2,4.462,1 Hour,westus3,M208-52s_v2 Low Priority,Virtual Machines MSv2 Series
+Standard_M208-52s_v2,22.31,1 Hour,westus3,M208-52s_v2,Virtual Machines MSv2 Series
+Standard_M208-52s_v2,2.231,1 Hour,westus3,M208-52s_v2 Spot,Virtual Machines MSv2 Series
+Standard_M208-52s_v2,31.878,1 Hour,westus3,M208-52s_v2,Virtual Machines MSv2 Series Windows
+Standard_M208-52s_v2,3.1878,1 Hour,westus3,M208-52s_v2 Spot,Virtual Machines MSv2 Series Windows
+Standard_M208ms_v2,54.188,1 Hour,westus3,M208ms v2,Virtual Machines MSv2 Series Windows
+Standard_M208ms_v2,21.675,1 Hour,westus3,M208ms v2 Low Priority,Virtual Machines MSv2 Series Windows
+Standard_M208ms_v2,44.62,1 Hour,westus3,M208ms v2,Virtual Machines MSv2 Series
+Standard_M208ms_v2,4.462,1 Hour,westus3,M208ms v2 Spot,Virtual Machines MSv2 Series
+Standard_M208ms_v2,5.4188,1 Hour,westus3,M208ms v2 Spot,Virtual Machines MSv2 Series Windows
+Standard_M208ms_v2,8.924,1 Hour,westus3,M208ms v2 Low Priority,Virtual Machines MSv2 Series
+Standard_M208s_v2,4.462,1 Hour,westus3,M208s v2 Low Priority,Virtual Machines MSv2 Series
+Standard_M208s_v2,3.1878,1 Hour,westus3,M208s v2 Spot,Virtual Machines MSv2 Series Windows
+Standard_M208s_v2,22.31,1 Hour,westus3,M208s v2,Virtual Machines MSv2 Series
+Standard_M208s_v2,2.231,1 Hour,westus3,M208s v2 Spot,Virtual Machines MSv2 Series
+Standard_M208s_v2,12.751,1 Hour,westus3,M208s v2 Low Priority,Virtual Machines MSv2 Series Windows
+Standard_M208s_v2,31.878,1 Hour,westus3,M208s v2,Virtual Machines MSv2 Series Windows
+Standard_M32-16ms,0.6146,1 Hour,westus3,M32-16ms Spot,Virtual Machines MS Series
+Standard_M32-16ms,8.428,1 Hour,westus3,M32-16ms,Virtual Machines MS Series Windows
+Standard_M32-16ms,0.8428,1 Hour,westus3,M32-16ms Spot,Virtual Machines MS Series Windows
+Standard_M32-16ms,1.229,1 Hour,westus3,M32-16ms Low Priority,Virtual Machines MS Series
+Standard_M32-16ms,6.146,1 Hour,westus3,M32-16ms,Virtual Machines MS Series
+Standard_M32-16ms,3.371,1 Hour,westus3,M32-16ms Low Priority,Virtual Machines MS Series Windows
+Standard_M32-8ms,8.428,1 Hour,westus3,M32-8ms,Virtual Machines MS Series Windows
+Standard_M32-8ms,1.229,1 Hour,westus3,M32-8ms Low Priority,Virtual Machines MS Series
+Standard_M32-8ms,0.6146,1 Hour,westus3,M32-8ms Spot,Virtual Machines MS Series
+Standard_M32-8ms,0.8428,1 Hour,westus3,M32-8ms Spot,Virtual Machines MS Series Windows
+Standard_M32-8ms,6.146,1 Hour,westus3,M32-8ms,Virtual Machines MS Series
+Standard_M32-8ms,3.371,1 Hour,westus3,M32-8ms Low Priority,Virtual Machines MS Series Windows
+Standard_M32dms_v2,0.7618,1 Hour,westus3,M32dms_v2 Spot,Virtual Machines MdSv2 Series Windows
+Standard_M32dms_v2,7.618,1 Hour,westus3,M32dms_v2,Virtual Machines MdSv2 Series Windows
+Standard_M32dms_v2,0.6146,1 Hour,westus3,M32dms_v2 Spot,Virtual Machines MdSv2 Series
+Standard_M32dms_v2,6.146,1 Hour,westus3,M32dms_v2,Virtual Machines MdSv2 Series
+Standard_M32dms_v2,12.194,1 Hour,westus3,vCore,Azure Database for PostgreSQL Flexible Server Mdsv2 Series Compute
+Standard_M32dms_v2,3.047,1 Hour,westus3,M32dms_v2 Low Priority,Virtual Machines MdSv2 Series Windows
+Standard_M32dms_v2,1.229,1 Hour,westus3,M32dms_v2 Low Priority,Virtual Machines MdSv2 Series
+Standard_M32ls,2.873,1 Hour,westus3,M32ls,Virtual Machines MS Series
+Standard_M32ls,0.4345,1 Hour,westus3,M32ls Spot,Virtual Machines MS Series Windows
+Standard_M32ls,0.2873,1 Hour,westus3,M32ls Spot,Virtual Machines MS Series
+Standard_M32ls,0.575,1 Hour,westus3,M32ls Low Priority,Virtual Machines MS Series
+Standard_M32ls,1.163,1 Hour,westus3,M32ls Low Priority,Virtual Machines MS Series Windows
+Standard_M32ls,4.345,1 Hour,westus3,M32ls,Virtual Machines MS Series Windows
+Standard_M32ms,8.428,1 Hour,westus3,M32ms,Virtual Machines MS Series Windows
+Standard_M32ms,0.8428,1 Hour,westus3,M32ms Spot,Virtual Machines MS Series Windows
+Standard_M32ms,1.229,1 Hour,westus3,M32ms Low Priority,Virtual Machines MS Series
+Standard_M32ms,6.146,1 Hour,westus3,M32ms,Virtual Machines MS Series
+Standard_M32ms,3.371,1 Hour,westus3,M32ms Low Priority,Virtual Machines MS Series Windows
+Standard_M32ms,0.6146,1 Hour,westus3,M32ms Spot,Virtual Machines MS Series
+Standard_M32ms_v2,6.041,1 Hour,westus3,M32ms_v2,Virtual Machines MSv2 Series
+Standard_M32ms_v2,1.208,1 Hour,westus3,M32ms_v2 Low Priority,Virtual Machines MSv2 Series
+Standard_M32ms_v2,0.6041,1 Hour,westus3,M32ms_v2 Spot,Virtual Machines MSv2 Series
+Standard_M32ms_v2,0.7513,1 Hour,westus3,M32ms_v2 Spot,Virtual Machines MSv2 Series Windows
+Standard_M32ms_v2,7.513,1 Hour,westus3,M32ms_v2,Virtual Machines MSv2 Series Windows
+Standard_M32ms_v2,3.005,1 Hour,westus3,M32ms_v2 Low Priority,Virtual Machines MSv2 Series Windows
+Standard_M32s,3.335,1 Hour,westus3,M32s,Virtual Machines MS Series
+Standard_M32s,4.807,1 Hour,westus3,M32s,Virtual Machines MS Series Windows
+Standard_M32s,1.923,1 Hour,westus3,M32s Low Priority,Virtual Machines MS Series Windows
+Standard_M32s,0.3335,1 Hour,westus3,M32s Spot,Virtual Machines MS Series
+Standard_M32s,0.667,1 Hour,westus3,M32s Low Priority,Virtual Machines MS Series
+Standard_M32s,0.4807,1 Hour,westus3,M32s Spot,Virtual Machines MS Series Windows
+Standard_M32ts,0.541,1 Hour,westus3,M32ts Low Priority,Virtual Machines MS Series
+Standard_M32ts,0.2707,1 Hour,westus3,M32ts Spot,Virtual Machines MS Series
+Standard_M32ts,2.707,1 Hour,westus3,M32ts,Virtual Machines MS Series
+Standard_M32ts,0.4179,1 Hour,westus3,M32ts Spot,Virtual Machines MS Series Windows
+Standard_M32ts,4.179,1 Hour,westus3,M32ts,Virtual Machines MS Series Windows
+Standard_M32ts,1.13,1 Hour,westus3,M32ts Low Priority,Virtual Machines MS Series Windows
+Standard_M416-104ms_v2,118.29,1 Hour,westus3,M416-104ms_v2,Virtual Machines MSv2 Series Windows
+Standard_M416-104ms_v2,9.915,1 Hour,westus3,M416-104ms_v2 Spot,Virtual Machines MSv2 Series
+Standard_M416-104ms_v2,47.314,1 Hour,westus3,M416-104ms_v2 Low Priority,Virtual Machines MSv2 Series Windows
+Standard_M416-104ms_v2,19.83,1 Hour,westus3,M416-104ms_v2 Low Priority,Virtual Machines MSv2 Series
+Standard_M416-104ms_v2,11.829,1 Hour,westus3,M416-104ms_v2 Spot,Virtual Machines MSv2 Series Windows
+Standard_M416-104ms_v2,99.15,1 Hour,westus3,M416-104ms_v2,Virtual Machines MSv2 Series
+Standard_M416-104s_v2,6.8716,1 Hour,westus3,M416-104s_v2 Spot,Virtual Machines MSv2 Series Windows
+Standard_M416-104s_v2,27.486,1 Hour,westus3,M416-104s_v2 Low Priority,Virtual Machines MSv2 Series Windows
+Standard_M416-104s_v2,4.958,1 Hour,westus3,M416-104s_v2 Spot,Virtual Machines MSv2 Series
+Standard_M416-104s_v2,68.716,1 Hour,westus3,M416-104s_v2,Virtual Machines MSv2 Series Windows
+Standard_M416-104s_v2,49.58,1 Hour,westus3,M416-104s_v2,Virtual Machines MSv2 Series
+Standard_M416-104s_v2,9.916,1 Hour,westus3,M416-104s_v2 Low Priority,Virtual Machines MSv2 Series
+Standard_M416-208ms_v2,47.314,1 Hour,westus3,M416-208ms_v2 Low Priority,Virtual Machines MSv2 Series Windows
+Standard_M416-208ms_v2,9.915,1 Hour,westus3,M416-208ms_v2 Spot,Virtual Machines MSv2 Series
+Standard_M416-208ms_v2,99.15,1 Hour,westus3,M416-208ms_v2,Virtual Machines MSv2 Series
+Standard_M416-208ms_v2,19.83,1 Hour,westus3,M416-208ms_v2 Low Priority,Virtual Machines MSv2 Series
+Standard_M416-208ms_v2,11.829,1 Hour,westus3,M416-208ms_v2 Spot,Virtual Machines MSv2 Series Windows
+Standard_M416-208ms_v2,118.29,1 Hour,westus3,M416-208ms_v2,Virtual Machines MSv2 Series Windows
+Standard_M416-208s_v2,6.8716,1 Hour,westus3,M416-208s_v2 Spot,Virtual Machines MSv2 Series Windows
+Standard_M416-208s_v2,9.916,1 Hour,westus3,M416-208s_v2 Low Priority,Virtual Machines MSv2 Series
+Standard_M416-208s_v2,68.716,1 Hour,westus3,M416-208s_v2,Virtual Machines MSv2 Series Windows
+Standard_M416-208s_v2,27.486,1 Hour,westus3,M416-208s_v2 Low Priority,Virtual Machines MSv2 Series Windows
+Standard_M416-208s_v2,4.958,1 Hour,westus3,M416-208s_v2 Spot,Virtual Machines MSv2 Series
+Standard_M416-208s_v2,49.58,1 Hour,westus3,M416-208s_v2,Virtual Machines MSv2 Series
+Standard_M416is_v2,68.716,1 Hour,westus3,M416is v2,Virtual Machines MSv2 Series Windows
+Standard_M416is_v2,4.958,1 Hour,westus3,M416is v2 Spot,Virtual Machines MSv2 Series
+Standard_M416is_v2,27.486,1 Hour,westus3,M416is v2 Low Priority,Virtual Machines MSv2 Series Windows
+Standard_M416is_v2,6.8716,1 Hour,westus3,M416is v2 Spot,Virtual Machines MSv2 Series Windows
+Standard_M416is_v2,9.916,1 Hour,westus3,M416is v2 Low Priority,Virtual Machines MSv2 Series
+Standard_M416is_v2,49.58,1 Hour,westus3,M416is v2,Virtual Machines MSv2 Series
+Standard_M416ms_v2,99.15,1 Hour,westus3,M416ms v2,Virtual Machines MSv2 Series
+Standard_M416ms_v2,47.314,1 Hour,westus3,M416ms v2 Low Priority,Virtual Machines MSv2 Series Windows
+Standard_M416ms_v2,11.829,1 Hour,westus3,M416ms v2 Spot,Virtual Machines MSv2 Series Windows
+Standard_M416ms_v2,118.29,1 Hour,westus3,M416ms v2,Virtual Machines MSv2 Series Windows
+Standard_M416ms_v2,19.83,1 Hour,westus3,M416ms v2 Low Priority,Virtual Machines MSv2 Series
+Standard_M416ms_v2,9.915,1 Hour,westus3,M416ms v2 Spot,Virtual Machines MSv2 Series
+Standard_M416s_8_v2,26.444,1 Hour,westus3,Standard_M416s_8_v2 Spot,Virtual Machines MSv2 Series
+Standard_M416s_8_v2,85.25,1 Hour,westus3,Standard_M416s_8_v2,Virtual Machines MSv2 Series Windows
+Standard_M416s_8_v2,66.11,1 Hour,westus3,Standard_M416s_8_v2,Virtual Machines MSv2 Series
+Standard_M416s_8_v2,10.735487,1 Hour,westus3,Standard_M416s_8_v2 Spot,Virtual Machines MSv2 Series Windows
+Standard_M416s_v2,68.716,1 Hour,westus3,M416s v2,Virtual Machines MSv2 Series Windows
+Standard_M416s_v2,49.58,1 Hour,westus3,M416s v2,Virtual Machines MSv2 Series
+Standard_M416s_v2,27.486,1 Hour,westus3,M416s v2 Low Priority,Virtual Machines MSv2 Series Windows
+Standard_M416s_v2,4.958,1 Hour,westus3,M416s v2 Spot,Virtual Machines MSv2 Series
+Standard_M416s_v2,9.916,1 Hour,westus3,M416s v2 Low Priority,Virtual Machines MSv2 Series
+Standard_M416s_v2,6.8716,1 Hour,westus3,M416s v2 Spot,Virtual Machines MSv2 Series Windows
+Standard_M64,1.334,1 Hour,westus3,M64 Low Priority,Virtual Machines MS Series
+Standard_M64,0.6669,1 Hour,westus3,M64 Spot,Virtual Machines MS Series
+Standard_M64,6.669,1 Hour,westus3,M64,Virtual Machines MS Series
+Standard_M64-16ms,1.4641,1 Hour,westus3,M64-16ms Spot,Virtual Machines MS Series Windows
+Standard_M64-16ms,10.337,1 Hour,westus3,M64-16ms,Virtual Machines MS Series
+Standard_M64-16ms,1.0337,1 Hour,westus3,M64-16ms Spot,Virtual Machines MS Series
+Standard_M64-16ms,14.641,1 Hour,westus3,M64-16ms,Virtual Machines MS Series Windows
+Standard_M64-16ms,5.856,1 Hour,westus3,M64-16ms Low Priority,Virtual Machines MS Series Windows
+Standard_M64-16ms,2.067,1 Hour,westus3,M64-16ms Low Priority,Virtual Machines MS Series
+Standard_M64-32ms,1.0337,1 Hour,westus3,M64-32ms Spot,Virtual Machines MS Series
+Standard_M64-32ms,10.337,1 Hour,westus3,M64-32ms,Virtual Machines MS Series
+Standard_M64-32ms,14.641,1 Hour,westus3,M64-32ms,Virtual Machines MS Series Windows
+Standard_M64-32ms,5.856,1 Hour,westus3,M64-32ms Low Priority,Virtual Machines MS Series Windows
+Standard_M64-32ms,2.067,1 Hour,westus3,M64-32ms Low Priority,Virtual Machines MS Series
+Standard_M64-32ms,1.4641,1 Hour,westus3,M64-32ms Spot,Virtual Machines MS Series Windows
+Standard_M64dms_v2,10.34,1 Hour,westus3,M64dms_v2,Virtual Machines MdSv2 Series
+Standard_M64dms_v2,1.034,1 Hour,westus3,M64dms_v2 Spot,Virtual Machines MdSv2 Series
+Standard_M64dms_v2,20.516,1 Hour,westus3,vCore,Azure Database for PostgreSQL Flexible Server Mdsv2 Series Compute
+Standard_M64dms_v2,2.068,1 Hour,westus3,M64dms_v2 Low Priority,Virtual Machines MdSv2 Series
+Standard_M64dms_v2,5.314,1 Hour,westus3,M64dms_v2 Low Priority,Virtual Machines MdSv2 Series Windows
+Standard_M64dms_v2,1.3284,1 Hour,westus3,M64dms_v2 Spot,Virtual Machines MdSv2 Series Windows
+Standard_M64dms_v2,13.284,1 Hour,westus3,M64dms_v2,Virtual Machines MdSv2 Series Windows
+Standard_M64ds_v2,9.613,1 Hour,westus3,M64ds_v2,Virtual Machines MdSv2 Series Windows
+Standard_M64ds_v2,3.845,1 Hour,westus3,M64ds_v2 Low Priority,Virtual Machines MdSv2 Series Windows
+Standard_M64ds_v2,0.9613,1 Hour,westus3,M64ds_v2 Spot,Virtual Machines MdSv2 Series Windows
+Standard_M64ds_v2,0.6669,1 Hour,westus3,M64ds_v2 Spot,Virtual Machines MdSv2 Series
+Standard_M64ds_v2,13.232,1 Hour,westus3,vCore,Azure Database for PostgreSQL Flexible Server Mdsv2 Series Compute
+Standard_M64ds_v2,1.334,1 Hour,westus3,M64ds_v2 Low Priority,Virtual Machines MdSv2 Series
+Standard_M64ds_v2,6.669,1 Hour,westus3,M64ds_v2,Virtual Machines MdSv2 Series
+Standard_M64ls,8.359,1 Hour,westus3,M64ls,Virtual Machines MS Series Windows
+Standard_M64ls,5.415,1 Hour,westus3,M64ls,Virtual Machines MS Series
+Standard_M64ls,0.5415,1 Hour,westus3,M64ls Spot,Virtual Machines MS Series
+Standard_M64ls,0.8359,1 Hour,westus3,M64ls Spot,Virtual Machines MS Series Windows
+Standard_M64ls,2.261,1 Hour,westus3,M64ls Low Priority,Virtual Machines MS Series Windows
+Standard_M64ls,1.083,1 Hour,westus3,M64ls Low Priority,Virtual Machines MS Series
+Standard_M64m,10.337,1 Hour,westus3,M64m,Virtual Machines MS Series
+Standard_M64m,2.067,1 Hour,westus3,M64m Low Priority,Virtual Machines MS Series
+Standard_M64m,1.0337,1 Hour,westus3,M64m Spot,Virtual Machines MS Series
+Standard_M64ms,10.337,1 Hour,westus3,M64ms,Virtual Machines MS Series
+Standard_M64ms,14.641,1 Hour,westus3,M64ms,Virtual Machines MS Series Windows
+Standard_M64ms,1.4641,1 Hour,westus3,M64ms Spot,Virtual Machines MS Series Windows
+Standard_M64ms,5.856,1 Hour,westus3,M64ms Low Priority,Virtual Machines MS Series Windows
+Standard_M64ms,2.067,1 Hour,westus3,M64ms Low Priority,Virtual Machines MS Series
+Standard_M64ms,1.0337,1 Hour,westus3,M64ms Spot,Virtual Machines MS Series
+Standard_M64ms_v2,5.229,1 Hour,westus3,M64ms_v2 Low Priority,Virtual Machines MSv2 Series Windows
+Standard_M64ms_v2,1.013,1 Hour,westus3,M64ms_v2 Spot,Virtual Machines MSv2 Series
+Standard_M64ms_v2,1.3073,1 Hour,westus3,M64ms_v2 Spot,Virtual Machines MSv2 Series Windows
+Standard_M64ms_v2,2.026,1 Hour,westus3,M64ms_v2 Low Priority,Virtual Machines MSv2 Series
+Standard_M64ms_v2,13.073,1 Hour,westus3,M64ms_v2,Virtual Machines MSv2 Series Windows
+Standard_M64ms_v2,10.13,1 Hour,westus3,M64ms_v2,Virtual Machines MSv2 Series
+Standard_M64s,0.6669,1 Hour,westus3,M64s Spot,Virtual Machines MS Series
+Standard_M64s,1.334,1 Hour,westus3,M64s Low Priority,Virtual Machines MS Series
+Standard_M64s,3.845,1 Hour,westus3,M64s Low Priority,Virtual Machines MS Series Windows
+Standard_M64s,6.669,1 Hour,westus3,M64s,Virtual Machines MS Series
+Standard_M64s,0.9613,1 Hour,westus3,M64s Spot,Virtual Machines MS Series Windows
+Standard_M64s,9.613,1 Hour,westus3,M64s,Virtual Machines MS Series Windows
+Standard_M64s_v2,9.403,1 Hour,westus3,M64s_v2,Virtual Machines MSv2 Series Windows
+Standard_M64s_v2,0.9403,1 Hour,westus3,M64s_v2 Spot,Virtual Machines MSv2 Series Windows
+Standard_M64s_v2,3.761,1 Hour,westus3,M64s_v2 Low Priority,Virtual Machines MSv2 Series Windows
+Standard_M64s_v2,6.459,1 Hour,westus3,M64s_v2,Virtual Machines MSv2 Series
+Standard_M64s_v2,1.292,1 Hour,westus3,M64s_v2 Low Priority,Virtual Machines MSv2 Series
+Standard_M64s_v2,0.6459,1 Hour,westus3,M64s_v2 Spot,Virtual Machines MSv2 Series
+Standard_M8-2ms,0.307,1 Hour,westus3,M8-2ms Low Priority,Virtual Machines MS Series
+Standard_M8-2ms,2.107,1 Hour,westus3,M8-2ms,Virtual Machines MS Series Windows
+Standard_M8-2ms,0.1536,1 Hour,westus3,M8-2ms Spot,Virtual Machines MS Series
+Standard_M8-2ms,1.536,1 Hour,westus3,M8-2ms,Virtual Machines MS Series
+Standard_M8-2ms,0.2107,1 Hour,westus3,M8-2ms Spot,Virtual Machines MS Series Windows
+Standard_M8-2ms,0.843,1 Hour,westus3,M8-2ms Low Priority,Virtual Machines MS Series Windows
+Standard_M8-4ms,0.307,1 Hour,westus3,M8-4ms Low Priority,Virtual Machines MS Series
+Standard_M8-4ms,2.107,1 Hour,westus3,M8-4ms,Virtual Machines MS Series Windows
+Standard_M8-4ms,0.2107,1 Hour,westus3,M8-4ms Spot,Virtual Machines MS Series Windows
+Standard_M8-4ms,1.536,1 Hour,westus3,M8-4ms,Virtual Machines MS Series
+Standard_M8-4ms,0.1536,1 Hour,westus3,M8-4ms Spot,Virtual Machines MS Series
+Standard_M8-4ms,0.843,1 Hour,westus3,M8-4ms Low Priority,Virtual Machines MS Series Windows
+Standard_M8ms,0.307,1 Hour,westus3,M8ms Low Priority,Virtual Machines MS Series
+Standard_M8ms,2.107,1 Hour,westus3,M8ms,Virtual Machines MS Series Windows
+Standard_M8ms,0.2107,1 Hour,westus3,M8ms Spot,Virtual Machines MS Series Windows
+Standard_M8ms,1.536,1 Hour,westus3,M8ms,Virtual Machines MS Series
+Standard_M8ms,0.1536,1 Hour,westus3,M8ms Spot,Virtual Machines MS Series
+Standard_M8ms,0.843,1 Hour,westus3,M8ms Low Priority,Virtual Machines MS Series Windows
 Standard_NC12s_v3,3.668266,1 Hour,westus3,NC12s v3 Spot,Virtual Machines NCSv3 Series Windows
 Standard_NC12s_v3,6.12,1 Hour,westus3,NC12s v3,Virtual Machines NCSv3 Series
 Standard_NC12s_v3,1.224,1 Hour,westus3,NC12s v3 Low Priority,Virtual Machines NCSv3 Series

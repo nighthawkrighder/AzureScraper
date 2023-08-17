@@ -57,7 +57,13 @@ def main():
              "contains(armSkuName, 'Standard_F') or "
              "contains(armSkuName, 'Standard_G') or "
              "contains(armSkuName, 'Standard_H') or "
-             "contains(armSkuName, 'Standard_N'))")
+             "contains(armSkuName, 'Standard_L') or "
+             "contains(armSkuName, 'Standard_M') or "
+             "contains(armSkuName, 'Standard_M') or "
+             "contains(armSkuName, 'Standard_T'))")
+                    
+             
+             
 
     response = requests.get(api_url, params={'$filter': query})
     json_data = json.loads(response.text)
