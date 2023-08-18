@@ -46,7 +46,7 @@ def save_to_html(table_data, filename):
 def main():
     table_data = []
     table_data.append(['SKU', 'Retail Price', 'Unit of Measure', 'Region', 'Meter', 'Product Name'])
-
+    print("Program is executing...")
     api_url = "https://prices.azure.com/api/retail/prices?api-version=2021-10-01-preview"
     query = ("armRegionName eq 'westus3' and priceType eq 'Consumption' and ("
              "contains(armSkuName, 'Standard_A') or "
